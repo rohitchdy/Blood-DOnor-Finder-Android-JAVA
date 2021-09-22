@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.MakeARequestFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvbloodgroup"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textSize="16sp"
+                android:importantForAutofill="no"
+
+                android:hint="@string/bg"
+                android:padding="10dp" />
+
+            <Spinner
+                android:id="@+id/bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/bloodGroup"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/full_name"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="16sp"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="10dp"
+            android:hint="@string/full_name">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/bloodUnit"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="16sp"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="10dp"
+            android:hint="@string/bloodUnit">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/remarks"
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="16sp"
+            android:importantForAutofill="no"
+            android:inputType="text|textMultiLine"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="10dp"
+            android:hint="@string/remarks"
+            android:gravity="top">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/mobile"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="16sp"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="10dp"
+            android:hint="@string/mobileNo">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/hospital_name"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="16sp"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="10dp"
+            android:hint="@string/hospital_name">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/district"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="16sp"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="10dp"
+            android:hint="@string/district">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/municipality"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="16sp"
+            android:importantForAutofill="no"
+            android:inputType="text"
+
+            android:padding="10dp"
+
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="10dp"
+            android:hint="@string/municipality">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/local_address"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="16sp"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="10dp"
+            android:hint="@string/local_address">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+        <Button
+            android:id="@+id/btn_request"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/White"
+            android:text="@string/submit"
+            android:background="@drawable/btn_round"
+            android:textAllCaps="false"
+            android:layout_margin="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_requests"
+            android:icon="@drawable/ic_group_24"
+            android:title="Requests" />
+
+        <item
+            android:id="@+id/nav_feeds"
+            android:icon="@drawable/ic_feeds"
+            android:title="Feeds" />
+
+        <item
+            android:id="@+id/nav_make_a_request"
+            android:icon="@drawable/ic_make_request_24"
+            android:title="Make a Request" />
+        <item
+            android:id="@+id/nav_my_requests"
+            android:icon="@drawable/ic_my_request"
+            android:title="My Requests" />
+
+        <item
+            android:id="@+id/nav_my_donation"
+            android:icon="@drawable/blood"
+            android:title="My Donations" />
+        <item
+            android:id="@+id/nav_my_pending_donation"
+            android:icon="@drawable/blood"
+            android:title="My Pending Donations" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="Setting" />
+    </group>
+
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout_user"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

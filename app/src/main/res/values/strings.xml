@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">BloodDonorFinder</string>
+    <string name="logo_text">Blood Donor Finder </string>
+    <string name="mobile">Mobile Number</string>
+    <string name="password">Enter Password</string>
+    <string name="login">LOGIN</string>
+    <string name="logo">Logo</string>
+    <string name="forget_password"><u>Forget Password?</u></string>
+    <string name="sign_up"><u>Need Sign Up?</u></string>
+
+    <string name="full_name">Enter Full Name</string>
+    <string name="city_name">Enter City Name</string>
+    <string name="mobileNo">Mobile No.</string>
+    <string name="register">Register</string>
+    <string name="bg">Choose Your Blood Group</string>
+    <string name="gender">Select Your Gender</string>
+    <string name="age">Enter Your Age</string>
+    <string name="district">Enter District Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="roll">Choose Your Role</string>
+    <string name="input_error_name">name required</string>
+    <string name="input_error_age">age required</string>
+    <string name="input_error_district">district required</string>
+    <string name="input_error_city">city required</string>
+    <string name="input_error_number">mobile no. required</string>
+    <string name="input_error_number_invalid">please input  valid number with 10 digit</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_password_length">password must be of 8 character or more</string>
+    <string name="input_error_confirm_password">password not matching</string>
+    <string name="user_name">Username</string>
+    <string name="input_error_username">username required</string>
+    <string name="registration_successful">Registration Success</string>
+    <string name="registration_failed">Registration not success</string>
+    <string name="login_successful">Login Success</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="municipality">Enter Municipality Name</string>
+    <string name="local_address">Enter Local Address Name</string>
+    <string name="signUp">Register</string>
+    <string name="input_error_full_name">FullName is requierd.</string>
+    <string name="input_error_dob">Date must be required and in date format.</string>
+    <string name="input_error_municipality">Municipality Name is required.</string>
+    <string name="input_error_localAddress">Local Address is required.</string>
+    <string name="input_error_email">Email is required and must be in email format.</string>
+    <string name="email">Enter Email</string>
+    <string name="input_error_mobile_length">Mobile no, must be of 10 digit.</string>
+
+
+    <string-array name="bloodGroup">
+
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+
+    <string-array name="bloodUnit">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>other</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="bloodUnit">Blood Unit</string>
+    <string name="remarks">Remarks</string>
+    <string name="hospital_name">Hospital Name</string>
+    <string name="submit">Submit</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="otp">Enter your OTP</string>
+    <string name="input_error_otp">Otp is required.</string>
+
+
+    <string name="verification_code_subtext">Please type the verification code sent to your registered email</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="validate">Validate</string>
+    <string name="enterEmail">Please Enter Your Registered Email.</string>
+    <string name="changePassword">Change Password</string>
+    <string name="newPassword">Enter new password</string>
+</resources>

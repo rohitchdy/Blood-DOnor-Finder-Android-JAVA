@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.DemoActivity">
+
+    <Button
+        android:id="@+id/btn_demo"
+        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/White"
+        android:text="@string/login"
+        android:background="@drawable/btn_round"
+        android:textAllCaps="false"
+        android:layout_margin="20dp"
+        android:layout_marginTop="40dp"
+
+        />
+
+</LinearLayout>
